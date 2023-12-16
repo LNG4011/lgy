@@ -1,0 +1,132 @@
+@import url('https://fonts.google.com/noto/specimen/Noto+Sans+KR?subset=korean&noto.script=Kore');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    alink{color: black;}
+    a:visited{color:#000000;}
+    a:hover{color:rgb(178, 243, 255);}
+    a:active{color:black;}
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    }
+.menu{} 
+.menu a{
+    display: block;
+    width: 20vw;
+    height:20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px 0px;
+    font-size: 15pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1px;
+    padding-top: 40px;
+    ;
+}
+.menu a:hover{
+    background-color: #888888;
+    color: rgb(0, 0, 0);}
+     nav{
+   background-color: rgb(0, 0, 0);
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   position: fixed;
+   z-index: 99;
+   left: 270px;
+}
+nav{
+    background-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    z-index: 97;
+    left: 0px;
+    width: 1920px;
+}
+nav ul{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 98;
+
+}
+nav ul li{
+    position: relative;
+    width: 100px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    left: -110px;
+
+}
+nav ul li a{
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    height: 30px;
+    width: 216px;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: #888888;
+    height: 40px;
+
+ 
+}
+.text1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 3;
+    color: white;
+    font-size: 90px;
+    font-weight: thin;
+    position: absolute;
+    top: 80px;
+    left: 431px;
+}
+.text2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 4;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 526px;
+    left: 431px;
+}
+.text3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 5;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 604px;
+    left: 431px;
+}
+.back_ground {
+    position: absolute;
+    z-index: 1;
+}
+.karl_ragerfeld {
+    position: absolute;
+    z-index: 2;
+    left: 1104px;
+}
+.ikon{
+    position: absolute;
+    z-index: 5;
+    top: 780px;
+    left: 431px;
+}
